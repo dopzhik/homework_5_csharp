@@ -46,5 +46,5 @@ double DiffMaxMin(double[] array)
 double[] arrayone = GenerateArray(10, - 99, 99);
 ShowArray(arrayone);
 double diff = DiffMaxMin(arrayone);
-Console.Write($"Разница между максимальным и минимальным элементам равна - ");
+Console.Write($"Разница между максимальным и минимальным элементами равна - ");
 Console.Write("{0:0.00}", diff);
